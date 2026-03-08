@@ -4,15 +4,6 @@
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=firmwrek&label=Profile%20views&color=0e75b6&style=flat" alt="firmwrek" /> </p>
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=firmwrek" alt="firmwrek" /></a> </p>
-t = gifos.Terminal(width=320, height=240)
-t.gen_text(text="Hello World!", row_num=1)
-t.gen_text(text="With \x1b[32mANSI\x1b[0m escape sequence support!", row_num=2)
-github_stats = gifos.utils.fetch_github_stats(user_name="x0rzavi")
-t.delete_row(row_num=1)
-t.gen_text(text=f"GitHub Name: {github_stats.account_name}", row_num=1, contin=True)
-t.gen_gif()
-image = gifos.utils.upload_imgbb(file_name="output.gif", expiration=60)
-print(image.url)   
 - 🔭 I’m currently studying in [Sister Nivedita University](https://www.snuniv.ac.in/)
 
 - 🌱 I’m currently learning **N/A**
